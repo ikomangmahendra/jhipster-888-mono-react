@@ -1,0 +1,24 @@
+{
+  "annotations": {
+    "changelogDate": "20250118051602"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "provider",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "abn",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contactPerson",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Provider",
+  "pagination": "pagination",
+  "relationships": [],
+  "searchEngine": "no"
+}
