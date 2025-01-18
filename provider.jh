@@ -1,0 +1,8 @@
+
+entity Provider {
+	provider String
+    abn String
+    contactPerson String
+}
+
+paginate Provider with pagination
