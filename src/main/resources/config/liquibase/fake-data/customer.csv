@@ -1,0 +1,11 @@
+id;register_date;customer_type;first_name;last_name;primary_email;primary_phone;status
+1;2025-09-07;CORPORATE;Sydnee;Kihn;after;when digitize s;IN_ACTIVE
+2;2025-09-07;PERSONAL;Ronny;Baumbach;where huzzah;slather failing;SUSPENDED
+3;2025-09-07;PERSONAL;Arvilla;Halvorson;hollow;internalize;SUSPENDED
+4;2025-09-08;CORPORATE;Henriette;Cummerata;thorough;industrialize r;ACTIVE
+5;2025-09-07;BUSINESS;Aliyah;Lesch;aside till archive;over eggplant;BLOCKED
+6;2025-09-07;CORPORATE;Bryana;Flatley;afore;shrill first;IN_ACTIVE
+7;2025-09-07;PERSONAL;Gus;Hickle;ah miserly;harmful whoever;CLOSED
+8;2025-09-07;BUSINESS;Marianne;Dicki;bah ah;coast;BLOCKED
+9;2025-09-07;BUSINESS;Patricia;Rice;illiterate brr boo;gosh pfft tousl;ACTIVE
+10;2025-09-07;BUSINESS;Haley;Larkin;hammock awkwardly short-term;whether uh-huh;SUSPENDED

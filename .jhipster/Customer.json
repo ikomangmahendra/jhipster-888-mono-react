@@ -1,0 +1,54 @@
+{
+  "annotations": {
+    "changelogDate": "20250908010752"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "registerDate",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "customerType",
+      "fieldType": "CustomerType",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "PERSONAL,BUSINESS,CORPORATE"
+    },
+    {
+      "fieldName": "firstName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "100"
+    },
+    {
+      "fieldName": "lastName",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "100"
+    },
+    {
+      "fieldName": "primaryEmail",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "100"
+    },
+    {
+      "fieldName": "primaryPhone",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "15"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "CustomerStatus",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "ACTIVE,IN_ACTIVE,SUSPENDED,BLOCKED,CLOSED"
+    }
+  ],
+  "name": "Customer",
+  "pagination": "pagination",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}
