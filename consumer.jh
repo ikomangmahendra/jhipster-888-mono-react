@@ -1,0 +1,24 @@
+entity Customer {
+	registerDate LocalDate required
+	customerType CustomerType required
+    firstName String required maxlength(100)
+	lastName String  maxlength(100)
+	primaryEmail String required  maxlength(100)
+	primaryPhone String  maxlength(15)
+    status CustomerStatus required
+}
+
+enum CustomerType {
+	PERSONAL, BUSINESS, CORPORATE
+}
+
+enum CustomerStatus {
+    ACTIVE,
+    IN_ACTIVE,
+    SUSPENDED,
+    BLOCKED,
+    CLOSED
+}
+
+paginate * with pagination
+service * with serviceClass
